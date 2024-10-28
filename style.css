@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+p::first-line{
+    font-style: italic;
+
+}
+*::selection{
+    background-color: darkgoldenrod;
+    color:white;
+}
+h1::before{
+    content: '*';
+    color: blue;
+    font-size: 20px;
+    background-color: rgb(211, 211, 243);
+}
+h1::after{
+    content: '*';
+    color: blue;
+    font-size: 20px;
+    background-color: rgb(211, 211, 243);
+
+}
+li::marker{
+    color: chartreuse;
+}
